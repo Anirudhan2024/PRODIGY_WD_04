@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home" class="section home">
+    <div class="intro">
+      <h1>Welcome to My Portfolio</h1><br>
+      <h2>I'm Anirudhan R, a Web Developer</h2><br>
+      <p>Passionate about creating responsive, user-friendly websites that provide a smooth user experience.</p><br>
+      <button id="cta-button">See My Work</button>
+    </div>
+    <div class="profile-photo">
+      <img src="image1.jpg" alt="Your Photo">
+    </div>
+  </section>
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Anirudhan R, a web developer with a passion for creating modern, responsive websites. I have experience working with HTML, CSS, JavaScript, and various web development tools and frameworks.</p>
+    <h3>Education</h3>
+    <ul>
+      <li>M.Tech Integrated CSE at Vit Vellore</li>
+      <li>Aspiring Web Developer with a Passion for Learning</li>
+    </ul>
+    <h3>Professional Experience</h3>
+    <ul>
+      <li>Web Developer Intern at Prodigy Infotech</li>
+      <li>Freelance Web Developer</li>
+    </ul>
+  </section>
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A responsive e-commerce website built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>An interactive movie watchlist built using JavaScript and CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 3</h3>
+        <p>A dynamic blog layout using Bootstrap's grid system.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section contact">
+    <h2>Contact</h2><br>
+    <p>Feel free to reach out for web development projects or collaborations!</p>
+    <form action="submit">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2024 Anirudhan R. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
